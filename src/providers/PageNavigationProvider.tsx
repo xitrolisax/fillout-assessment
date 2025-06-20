@@ -58,6 +58,9 @@ export const PageNavigationProvider: React.FC<PageNavigationProviderProps> = ({
 
   const deletePage = useCallback(
     (page: Page) => {
+      if (page.id === currentPage?.id) {
+        setCurrentPage(undefined);
+      }
       const pagesArray = allPages.filter(({ id }) => page.id !== id);
       setAllPages(pagesArray);
     },
