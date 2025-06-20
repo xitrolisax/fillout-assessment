@@ -8,18 +8,18 @@ export const PageIcon = () => {
     >
       <path
         d="M10.7798 2.79167H5.29168C4.83144 2.79167 4.45834 3.16477 4.45834 3.62501V17.375C4.45834 17.8352 4.83144 18.2083 5.29168 18.2083H15.7083C16.1686 18.2083 16.5417 17.8352 16.5417 17.375V8.55352C16.5417 8.3325 16.4539 8.12054 16.2976 7.96426L11.3691 3.03575C11.2128 2.87947 11.0008 2.79167 10.7798 2.79167Z"
-        stroke-width="1.5"
-        stroke-linecap="round"
+        strokeWidth="1.5"
+        strokeLinecap="round"
       />
       <path
         d="M7.79166 11.5417H10.7083M7.79166 14.875H13.2083"
-        stroke-width="1.5"
-        stroke-linecap="round"
+        strokeWidth="1.5"
+        strokeLinecap="round"
       />
       <path
         d="M11.125 3.20833V7.37499C11.125 7.83523 11.4981 8.20833 11.9583 8.20833H16.125"
-        stroke-width="1.5"
-        stroke-linecap="round"
+        strokeWidth="1.5"
+        strokeLinecap="round"
       />
     </svg>
   );

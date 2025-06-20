@@ -19,7 +19,7 @@ type InfoProps = { pageName: string };
 export const Info = ({ pageName }: InfoProps) => {
   return (
     <InfoPage>
-      <Title>This is an info page named "{pageName}"</Title>
+      <Title>This is an info page named {pageName}</Title>
     </InfoPage>
   );
 };

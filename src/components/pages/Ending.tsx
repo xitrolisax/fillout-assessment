@@ -19,7 +19,7 @@ type EndingProps = { pageName: string };
 export const Ending = ({ pageName }: EndingProps) => {
   return (
     <EndingPage>
-      <Title>This is an ending page named "{pageName}"</Title>
+      <Title>This is an ending page named {pageName}</Title>
     </EndingPage>
   );
 };

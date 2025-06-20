@@ -53,7 +53,7 @@ export const Navigation = () => {
   return (
     <NavigationDiv>
       {allPages.map((page, index) => (
-        <NavigationUnit>
+        <NavigationUnit key={index}>
           <NavigationButton
             isActive={currentPage?.id === page.id}
             page={page}

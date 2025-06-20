@@ -18,8 +18,9 @@ export const AddPageContextMenu = ({
     <ContextMenu hideContextMenu={closeContextMenu} parentElement={parentRef}>
       <ContextMenu.Header>Choose a page type</ContextMenu.Header>
       <ContextMenu.Body>
-        {menuLinks.map((link) => (
+        {menuLinks.map((link, index) => (
           <ContextMenu.Button
+            key={index}
             onClick={() => showAddNewPageModal(link.pageType, newPageIndex)}
           >
             <ContextMenu.Title>{link.title}</ContextMenu.Title>

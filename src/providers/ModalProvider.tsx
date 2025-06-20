@@ -19,7 +19,9 @@ type ModalProviderProps = {
   children: ReactNode;
 };
 
-export const ModalProvider: React.FC<ModalProviderProps> = ({ children }) => {
+export const ModalProvider: React.FC<ModalProviderProps> = ({
+  children,
+}: ModalProviderProps) => {
   const [isModalOpened, setIsModalOpened] = useState(false);
   const [newPageType, setNewPageType] = useState<PageType | undefined>();
   const [newPageIndex, setNewPageIndex] = useState<number | undefined>();

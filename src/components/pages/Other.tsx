@@ -19,7 +19,7 @@ type OtherProps = { pageName: string };
 export const Other = ({ pageName }: OtherProps) => {
   return (
     <OtherPage>
-      <Title>This is an other page named "{pageName}"</Title>
+      <Title>This is an other page named {pageName}</Title>
     </OtherPage>
   );
 };

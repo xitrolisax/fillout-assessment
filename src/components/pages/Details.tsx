@@ -19,7 +19,7 @@ type DetailsProps = { pageName: string };
 export const Details = ({ pageName }: DetailsProps) => {
   return (
     <DetailsPage>
-      <Title>This is a details page named "{pageName}"</Title>
+      <Title>This is a details page named {pageName}</Title>
     </DetailsPage>
   );
 };
